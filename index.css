@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 20% auto;
+    padding:10px;
+    height:auto;
+    width:100%;
+}
+
+.container_left-Panel{
+    padding:10px;
+    padding-left:10%;
+    position:sticky;
+    top:0;
+}
+
+.container_left-Panel > div{
+    margin-bottom:20px;
+}
+
+    label{
+    display: block;
+    padding-bottom:3px;
+}
+
+.input{
+    height: 26px;
+    width:200px;
+    border-radius: 5px;
+    border:0;
+}
+
+.container_right-Panel, .container_left-Panel{
+    background-color: aqua;
+} 
+
+.table_container{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    padding:10px;
+}
+
+.btn{
+    border-radius: 500px;
+    font-size:20px;
+}
+
+.btn-insert{
+    height: 35px;
+    width:200px;
+    border:0;
+    background-color: rgb(37,37,37);
+    color:white;
+    padding:5px 0 5px 0;
+}
